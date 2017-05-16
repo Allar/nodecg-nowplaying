@@ -1,0 +1,49 @@
+{
+  "name": "allar-nodecg-nowplaying",
+  "version": "0.0.0",
+  "description": "Fetches Last.FM info and pulls Spotify art",
+  "homepage": "https://gamemak.in",
+  "author": {
+    "name": "Michael Allar",
+    "email": "allar@michaelallar.com",
+    "url": "http://allarsblog.com"
+  },
+  "files": [
+    "dashboard",
+    "graphics",
+    "extension.js",
+    "extension"
+  ],
+  "keywords": [
+    "spotify",
+    "last.fm",
+    "scrobble",
+    "now",
+    "playing",
+    "nodecg-bundle"
+  ],
+  "nodecg": {
+    "compatibleRange": "~0.8.0",
+    "dashboardPanels": [
+      {
+        "name": "now-playing",
+        "title": "Now Playing",
+        "width": 2,
+        "file": "now-playing.html",
+        "headerColor": "#9f9bbd"
+      }
+    ],
+    "graphics": [
+      {
+        "file": "index.html",
+        "width": 288,
+        "height": 400
+      }
+    ]
+  },
+  "repository": "https://github.com/nodecg/nodecg.git",
+  "license": "MIT",
+  "dependencies": {
+        "request": "latest"
+    }
+}
