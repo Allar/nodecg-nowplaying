@@ -1,8 +1,8 @@
 {
-  "name": "allar-nodecg-nowplaying",
-  "version": "0.0.0",
+  "name": "nodecg-nowplaying",
+  "version": "0.1.0",
   "description": "Fetches Last.FM info and pulls Spotify art",
-  "homepage": "https://gamemak.in",
+  "homepage": "https://allarsblog.com",
   "author": {
     "name": "Michael Allar",
     "email": "allar@michaelallar.com",
@@ -41,7 +41,7 @@
       }
     ]
   },
-  "repository": "https://github.com/nodecg/nodecg.git",
+  "repository": "https://github.com/Allar/nodecg-nowplaying.git",
   "license": "MIT",
   "dependencies": {
         "request": "latest"

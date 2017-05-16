@@ -1,5 +1,5 @@
 {
-  "name": "allar-nodecg-nowplaying",
+  "name": "nodecg-nowplaying",
   "dependencies": {
     "nodecg-replicant": "NodeCGElements/nodecg-replicant",
     "nodecg-toggle": "NodeCGElements/nodecg-toggle",

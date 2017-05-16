@@ -1,0 +1,11 @@
+{
+    "$schema": "http://json-schema.org/schema#",
+
+    "type": "object",
+    "properties": {
+        "lastfm_api_key": { "type": "string" },
+        "lastfm_secret_key": { "type": "string" },
+        "lastfm_user": { "type": "string" }
+    },
+    "required": ["lastfm_api_key", "lastfm_secret_key", "lastfm_user"]
+}
