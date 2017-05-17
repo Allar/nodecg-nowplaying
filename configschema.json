@@ -3,9 +3,9 @@
 
     "type": "object",
     "properties": {
-        "lastfm_api_key": { "type": "string" },
-        "lastfm_secret_key": { "type": "string" },
-        "lastfm_user": { "type": "string" }
+        "lastfm_api_key": { "type": "string", "default": "7e733d81e3f9599e79541cbc96ae5b6a" },
+        "lastfm_secret_key": { "type": "string", "default": "secret" },
+        "lastfm_user": { "type": "string", "default": "awesomeallar" }
     },
     "required": ["lastfm_api_key", "lastfm_secret_key", "lastfm_user"]
 }
